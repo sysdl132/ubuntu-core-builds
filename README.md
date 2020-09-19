@@ -1,5 +1,11 @@
 # ubuntu-core-builds
-
+Currently provide:
+- juju
+- maas
+- nextcloud
+- rocket.chat
+- kata-containers
+- microk8s
 ## build information
 
 1. Create a key
