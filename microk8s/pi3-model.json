@@ -1,0 +1,15 @@
+a Raspberry Pi 3 board. The JSON file is named pi3-model.json:
+
+{
+  "type": "model",
+  "authority-id": "<your account id>",
+  "brand-id": "<your account id>",
+  "series": "16",
+  "model": "my-pi3",
+  "architecture": "arm64",
+  "base": "core18",
+  "gadget": "pi=18-pi3",
+  "kernel": "pi-kernel=18-pi3",
+  "timestamp": "<timestamp>",
+  "required-snaps": "microk8s"
+}
