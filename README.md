@@ -35,7 +35,7 @@ To build an image, it is required you have a signed model assertion.
 
 Example
 The following is an example model assertion that builds a Core 18 image for a Raspberry Pi 3 board. The JSON file is named pi3-model.json:
-```
+```json
 {
   "type": "model",
   "authority-id": "<your account id>",
@@ -59,7 +59,7 @@ The following is an example model assertion that builds a Core 18 image for a Ra
 - timestamp is a valid timestamp you need to generate using the date -Iseconds --utc command. The timestamp must be later than when the key that signs the model was registered.
 - required-snaps: you can optionally add a list of required snaps that will be unremovable and will be downloaded from the store or locally if they exist in the current directory
 - To alternatively build an Ubuntu Core 16 image, replace the base, gadget and kernel lines with the following:
-```
+```json
   "gadget": "pi3",
   "kernel": "pi2-kernel",
 ```
